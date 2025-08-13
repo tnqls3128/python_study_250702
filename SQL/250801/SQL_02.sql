@@ -3,7 +3,7 @@ DESC students;
 SELECT * FROM students;
 
 ALTER TABLE students MODIFY COLUMN
-age VARCHAR(20);
+age VARCHAR(20);상품명
 
 UPDATE students SET age = "15세" WHERE id = 1;
 UPDATE students SET age = "17세" WHERE id = 2;
