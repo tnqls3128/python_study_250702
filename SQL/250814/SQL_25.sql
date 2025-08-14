@@ -1,0 +1,11 @@
+-- SET SQL_SAFE_UPDATES = 0;
+START TRANSACTION; 
+
+UPDATE customer
+SET first_name = "MARY"
+WHERE customer_id = 1;
+
+COMMIT;
+
+SELECT * FROM customer LIMIT 10;
+ROLLBACK;
