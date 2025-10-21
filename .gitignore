@@ -1,0 +1,16 @@
+
+.DS_Store
+
+# 환경 설정 파일
+.env
+Digital_mkt_250811/instant-ascent-468703-h8-ab4b106c6a3c.json
+
+# 특정 폴더 무시
+pandas/00_PANDASPLOTLY_FUNCODING_FIRSTDATA/00_data/
+pandas/00_PANDASPLOTLY_FUNCODING_FIRSTDATA/COVID-19-master/
+
+# 특정 파일 무시
+pandas/00_PANDASPLOTLY_FUNCODING_FIRSTDATA_V3_1.zip
+
+# 모든 zip 파일 무시
+*.zip
