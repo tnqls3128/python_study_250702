@@ -1,27 +1,15 @@
-<<<<<<< HEAD
-# Jupyter 체크포인트 폴더 무시
-.ipynb_checkpoints/
-
-# 특정 폴더 무시 (전체)
-Digital_mkt_250811/
-pandas/
-anaconda_projects/
-scrapy/
-selenium/
-soobin_practice/
-cyworld/
-new_repo/
-
-# 환경 파일
+# 시스템 관련
+.DS_Store
 .env
-*.json
 
-# zip 파일
+# 자동 생성 파일
+.ipynb_checkpoints/
 *.zip
 
-# 기타
-.DS_Store
-=======
-.DS_Store
-.env"Digital_mkt_250811/instant-ascent-468703-h8-ab4b106c6a3c.json" 
->>>>>>> 60c29688b17721bc1cfbc480dfd370a92635a4c7
+# 특정 불필요한 파일만 무시
+Digital_mkt_250811/instant-ascent-468703-h8-ab4b106c6a3c.json
+
+# pandas 내 데이터 파일만 무시하고, 코드 등은 추적하고 싶을 때:
+pandas/00_PANDASPLOTLY_FUNCODING_FIRSTDATA/00_data/
+pandas/00_PANDASPLOTLY_FUNCODING_FIRSTDATA/COVID-19-master/
+pandas/00_PANDASPLOTLY_FUNCODING_FIRSTDATA_V3_1.zip
